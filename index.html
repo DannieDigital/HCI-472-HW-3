@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Danielle Beaty's Bootstrap II Homework</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-witdth, initial-scale=1">
+    <meta name="description" content="Typographical Hierarchies Assignment HCI 472">
+
+
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+   <!--Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+   <link href="https://fonts.googleapis.com/css?family=Kanit|Trirong&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+    <body>
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Bootstrap Homework II</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="carousel/carousel.html">Carousel Page</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <h1>Bootstrap Homework II</h1>
+                         <h2>The Wonderful World of Bootstrap!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus odio tortor, sagittis sodales suscipit a, sagittis at neque. Cras nibh mi, sollicitudin sit amet neque non, rhoncus vehicula erat. In at nibh lacus. Nam cursus porttitor imperdiet. Praesent est dui, interdum sed consequat in, imperdiet non dui. Nam enim diam, tincidunt sed velit fermentum, fermentum semper ligula. Fusce luctus commodo elit, vitae gravida ante vehicula vitae. Fusce laoreet nisi ac velit consequat dapibus. Nullam leo ligula, elementum vitae ultricies id, feugiat sed lacus. Nulla semper lacus sit amet neque mollis maximus. Suspendisse scelerisque quis elit eget gravida.</p>
+                <div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card">
+                                <img src="assets/eugene-golovesov-fxYBw6zcmEE-unsplash.jpg" class="card-img-top" alt="picture">
+                                <div class="card-body">
+                                  <h5 class="card-title">Flowers</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="https://www.1800flowers.com/" class="btn btn-primary">Order Flowers</a>
+                                </div>
+                              </div>   
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card">
+                                <img src="assets/eugene-golovesov-fxYBw6zcmEE-unsplash.jpg" class="card-img-top" alt="picture">
+                                <div class="card-body">
+                                  <h5 class="card-title">Modal</h5>
+                                  <p class="card-text">Modals are also known as modal windows, lightboxes, overlays, and dialogs..</p>
+                                  <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Code Me Crazy</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="jumbotron">
+                                            <div class="embed-responsive embed-responsive-21by9">
+                                               <video controls preload="metadata" playsinline autoplay loop muted  id="myVideo">
+                                                 <source class="embed-responsive-item" src="/assets/servicesVid.mov" allowfullscreen type="video/mp4">
+                                                   <!-- <source class="embed-responsive-item" src="./codesistasMOV.mov" allowfullscreen type="video/mov"> -->
+                                                     <!-- <source class="embed-responsive-item" src="./codesistasMOV.webm" allowfullscreen type="video/webm"> -->
+                                               </video>
+                                               </div>
+                                              </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                                </div>
+                              </div>   
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card">
+                                <img src="assets/eugene-golovesov-fxYBw6zcmEE-unsplash.jpg" class="card-img-top" alt="picture">
+                                <div class="card-body">
+                                  <h5 class="card-title">Flowers</h5>
+                                  <p class="card-text">Learn the 50 Most Popular Types of Flowers and more.</p>
+                                  <a href="https://www.ediblearrangements.com/blog/types-of-flowers/" class="btn btn-primary">View More</a>
+                                </div>
+                              </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+       <!-- Footer -->
+       <footer  class="text-center bg-light text-muted position-absolute">
+            <div> © Copyright 2024 <a class="text-reset footer-link" href="mailto:dbeaty@depaul.edu">DB Designs by Danielle Beaty</a> </div>
+    </footer>
+    <!-- End Footer -->
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
