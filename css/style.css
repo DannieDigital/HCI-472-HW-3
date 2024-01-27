@@ -27,7 +27,7 @@ body {
 }
  
 .btn-primary {
-  --bs-btn-color: #fff;
+    --bs-btn-color: #fff;
     --bs-btn-bg: rgba(151, 10, 104, 0.644) ;
     --bs-btn-border-color: rgba(151, 10, 104, 0.644) ;
     --bs-btn-hover-color: rgba(151, 10, 104, 0.644) ;
