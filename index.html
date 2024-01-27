@@ -90,15 +90,14 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <div id="jumbotron">
-                                            <div class="embed-responsive embed-responsive-21by9">
-                                               <video controls preload="metadata" playsinline autoplay loop muted  id="myVideo">
-                                                 <source class="embed-responsive-item" src="/assets/servicesVid.mov" allowfullscreen type="video/mp4">
-                                                   <<source class="embed-responsive-item" src="/assets/servicesVid.mov./codesistasMOV.mov" allowfullscreen type="video/mov">
-                                                     <source class="embed-responsive-item" src="/assets/servicesVid.mov./codesistasMOV.webm" allowfullscreen type="video/webm">
-                                               </video>
-                                               </div>
-                                              </div>
+                                       <div class="embed-responsive embed-responsive-21by9">
+                                          <video controls preload="metadata" playsinline autoplay loop muted id="myVideo">
+                                            <source src="/assets/servicesVid.mov" type="video/mp4">
+                                            <!-- Add additional source elements if you have alternative video formats -->
+                                            <source src="/assets/codesistasMOV.mov" type="video/mov"> 
+                                            <source src="/assets/codesistasMOV.webm" type="video/webm">
+                                              </video>
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
