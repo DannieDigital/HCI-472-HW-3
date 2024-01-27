@@ -27,11 +27,11 @@ body {
 }
  
 .btn-primary {
-    --bs-btn-color: #fff;
+  --bs-btn-color: #fff;
     --bs-btn-bg: rgba(151, 10, 104, 0.644) ;
     --bs-btn-border-color: rgba(151, 10, 104, 0.644) ;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: rgba(151, 10, 104, 0.644) ;
+    --bs-btn-hover-color: rgba(151, 10, 104, 0.644) ;
+    --bs-btn-hover-bg: rgba(247, 242, 245, 0.644) ;
     --bs-btn-hover-border-color: rgba(151, 10, 104, 0.644) ;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
@@ -41,6 +41,7 @@ body {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: rgba(151, 10, 104, 0.644);
     --bs-btn-disabled-border-color: rgba(151, 10, 104, 0.644);
+    width: 350px;
 } 
 
 #myVideo {
